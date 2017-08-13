@@ -1,0 +1,7 @@
+*~
+*.pyc
+build/
+vario.egg-info/
+dist/
+.venv/
+.idea/
