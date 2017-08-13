@@ -6,7 +6,6 @@ This project is to create a web tool for building video overlays with flight tel
 ## Notes
 
  - We'll need to read in `.igc` files ([details here](http://carrier.csi.cam.ac.uk/forsterlewis/soaring/igc_file_format/))
- - Some method for inputting videos
  - Some method to output videos
  - Some method of positioning instruments
  - Maybe a specification language so that we can automate positioning
