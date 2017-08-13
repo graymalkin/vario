@@ -3,6 +3,17 @@ Video overlays for Glider Pilots
 
 This project is to create a web tool for building video overlays with flight telemetry for glider and powered pilots.
 
+## Development
+
+Dev needs to be done in a virtual env.
+
+```
+virtualenv .venv
+. ./.venv/bin/activate
+python3 setup.py build
+```
+
+
 ## Notes
 
  - We'll need to read in `.igc` files ([details here](http://carrier.csi.cam.ac.uk/forsterlewis/soaring/igc_file_format/))
