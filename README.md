@@ -1,4 +1,7 @@
 # vario-js
+[![Build Status](https://travis-ci.org/graymalkin/vario.svg?branch=master)](https://travis-ci.org/graymalkin/vario)
+
+
 Video overlays for Glider Pilots
 
 This project is to create a web tool for building video overlays with flight telemetry for glider and powered pilots.
