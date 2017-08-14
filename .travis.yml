@@ -9,7 +9,7 @@ python:
 # Install dependencies
 install:
   - pip install -r requirements.txt
-  - pip install coveralls==4.0 codeclimate-test-reporter
+  - pip install coverage==4.0 codeclimate-test-reporter
 
 # Test
 script:
