@@ -9,13 +9,13 @@ python:
 # Install dependencies
 install:
   - pip install -r requirements.txt
-  - pip install coveralls
+  - pip install coveralls==4.0 codeclimate-test-reporter
 
 # Test
 script:
   - coverage run --source=vario setup.py test
 after_success:
-  coveralls
+  codeclimate-test-reporter
 
 # Notifcation preferences for travis apparently go in here?!
 notifications:

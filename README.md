@@ -1,6 +1,6 @@
 # vario-js
 [![Build Status](https://travis-ci.com/graymalkin/vario.svg?token=BxUAqoeAGCxjzsdvByus&branch=master)](https://travis-ci.com/graymalkin/vario)
-
+[![Test Coverage](https://codeclimate.com/github/graymalkin/vario/badges/coverage.svg)](https://codeclimate.com/github/graymalkin/vario/coverage)
 
 Video overlays for Glider Pilots
 
