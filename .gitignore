@@ -5,3 +5,5 @@ vario.egg-info/
 dist/
 .venv/
 .idea/
+.eggs/
+.coverage
