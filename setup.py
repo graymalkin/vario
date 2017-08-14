@@ -18,5 +18,10 @@ setup(
 
     entry_points = {
         'console_scripts': ['vario=vario.main:main']
-    }
+    },
+
+    # Testing using nose to detect test files
+    test_suite='nose2.collector.collector',
+    tests_require=['nose2'],
+
 )
