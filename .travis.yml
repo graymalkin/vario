@@ -9,13 +9,17 @@ python:
 # Install dependencies
 install:
   - pip install -r requirements.txt
+  - pip install coveralls
 
 # Test
 script:
-  - python setup.py test
+  - coverage run --source=vario setup.py test
+after_success:
+  coveralls
 
 # Notifcation preferences for travis apparently go in here?!
 notifications:
   email:
     on_success: never
     on_failure: change
+
