@@ -1,5 +1,5 @@
 # vario-js
-[![Build Status](https://travis-ci.org/graymalkin/vario.svg?branch=master)](https://travis-ci.org/graymalkin/vario)
+[![Build Status](https://travis-ci.com/graymalkin/vario.svg?branch=master)](https://travis-ci.com/graymalkin/vario)
 
 
 Video overlays for Glider Pilots
