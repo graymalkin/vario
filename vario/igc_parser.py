@@ -8,12 +8,13 @@ import datetime
 
 
 class IGCParser:
-    def pfx_fix_record(self, line):
+    @staticmethod
+    def pfx_fix_record(line):
         """Turns a B IGC Record into lat/long/alt data"""
-        assert(len(line) >= len("BHHMMSSDDMMmmmNDDDMMmmmEA0000000000"))
-        time = datetime.strptime(line[1:7], "%H%M%S")
-        lat = line[8:14]
-        long = line[15:23]
+        assert(len(line) >= len("""BHHMMSSDDMMmmmNDDDMMmmmEA0000000000"""))
+        time = datetime.datetime.strptime(line[1:7], "%H%M%S")
+        lat = line[7:15]
+        long = line[15:24]
         valid_fix = (line[24] == "A")
         baro_alt = int(line[25:30])
         gps_alt = int(line[31:35])
