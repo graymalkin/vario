@@ -13,3 +13,9 @@ install:
 # Test
 script:
   - python setup.py test
+
+# Notifcation preferences for travis apparently go in here?!
+notifications:
+  email:
+    on_success: never
+    on_failure: change
